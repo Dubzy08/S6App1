@@ -1,0 +1,11 @@
+* C:\Users\dubj0904\Documents\GitHub\S6App1\Jeremy\LaboE3.asc
+V1 N001 0 1
+Q1 N001 N002 0 0 2N2222
+I1 0 N002 1m
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\dubj0904\AppData\Local\LTspice\lib\cmp\standard.bjt
+.dc V1 0 10 0.1 I1 0 0.5u 0.01u
+.lib 2N3055A_UdeS.lib
+.backanno
+.end
